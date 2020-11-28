@@ -1,0 +1,105 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.mainFunction{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.google{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topBar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.officialStuff{
+  padding: 20px;
+  align-self: left;
+  align-items: center;
+
+  color: rgb(26, 26, 26);
+}
+
+.personalStuff{
+  padding-right: 20px;
+  align-self: right;
+  align-items: center;
+
+  color: rgb(26, 26, 26);
+}
+
+.personalStuff img{
+  transform: translate(0px, 10px);
+}
+
+.google{
+  display: flex;
+  flex-direction: column;
+  transform: translate(0px, 150px);
+}
+
+.searchBar{
+  border: solid;
+  border-radius: 90px;
+  border-color: rgb(220, 220, 220);
+  border-width: 1px;
+  width: 600px;
+  height: 40px;
+  margin-top: 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBar img{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  transform: translate(0px, 170px);
+}
+
+.item{
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 5px;
+
+  background-color: rgb(235, 235, 235);
+  border-radius: 5px;
+
+  color: rgb(110, 110, 110);
+}
+
+.bottomBar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #F2F2F2;
+  padding: 15px;
+  transform: translate(0px, 480px);
+}
+
+.leftStuff{
+  display: flex;
+}
+
+.rightStuff{
+  display: flex;
+}
+
+.barItem{
+  padding-left: 10px;
+  padding-right: 10px;
+}
